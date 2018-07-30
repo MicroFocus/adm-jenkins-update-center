@@ -1,0 +1,96 @@
+{"releaseHistory": [
+    {
+    "date": "Aug 13, 2017",
+    "releases": [    {
+      "firstRelease": true,
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.2",
+      "timestamp": 1502598598000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.2"
+    }]
+  },
+    {
+    "date": "Sep 04, 2017",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.2.0.1-beta",
+      "timestamp": 1504505614000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.2.0.1-beta"
+    }]
+  },
+    {
+    "date": "Dec 03, 2017",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.3",
+      "timestamp": 1512288630000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.3"
+    }]
+  },
+    {
+    "date": "Dec 24, 2017",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.3.1-beta",
+      "timestamp": 1514129216000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.3.1-beta"
+    }]
+  },
+    {
+    "date": "Jan 21, 2018",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.3.2-beta",
+      "timestamp": 1516534202000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.3.2-beta"
+    }]
+  },
+    {
+    "date": "Feb 20, 2018",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.3.3-beta",
+      "timestamp": 1519133990000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.3.3-beta"
+    }]
+  },
+    {
+    "date": "Mar 18, 2018",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.3.4-beta",
+      "timestamp": 1521357304000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.3.4-beta"
+    }]
+  },
+    {
+    "date": "May 29, 2018",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.4",
+      "timestamp": 1527575166000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.4"
+    }]
+  },
+    {
+    "date": "Jun 19, 2018",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.4.1-beta",
+      "timestamp": 1529417796000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.4.1-beta"
+    }]
+  },
+    {
+    "date": "Jul 08, 2018",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.4.2-beta",
+      "latestRelease": true,
+      "timestamp": 1531024800000,
+      "title": "HPE Application Automation Tools",
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.4.2-beta",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/HPE+Application+Automation+Tools"
+    }]
+  }
+]}
