@@ -101,59 +101,15 @@
 		<li>That's you are set to go!</li>
 	</ol>
 
-	<h2>Alternate way with our special Jenkins update center!</h2>
-	<p>To have your Jenkins access to this update center, follow these instructions:</p>
-	<ol>
-		<li>Install <a href="https://wiki.jenkins-ci.org/display/JENKINS/UpdateSites+Manager+plugin">UpdateSites Manager plugin</a> to your Jenkins.</li>
-		<ol>
-			<li>Access to Jenkins, open "Manage Jenkins" &gt; "Manage Plugins".</li>
-			<li>Select Available tab, and filter with "UpdateSites Manager plugin".</li>
-			<li>Check it, and click "Install without restart".</li>
-		</ol>
-		<li>Open "Manage Jenkins" &gt; "Manage Update Center".</li>
-		<li>Add a following update site.
-			<dl>
-				<dt>id</dt>
-				<dd>adm-jenkins-plugin-center</dd>
-				<dt>url</dt>
-				<dd>https://microfocus.github.io/adm-jenkins-update-center/update-center.json</dd>
-				<dt>CA certificate</dt>
-				<dd><pre class="code">
-
------BEGIN CERTIFICATE-----
-MIIDKTCCAhGgAwIBAgIJAOA7IgFHJKS7MA0GCSqGSIb3DQEBCwUAMCsxCzAJBgNV
-BAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEMMAoGA1UECwwDQURNMB4XDTE4MDczMDEy
-MDU1MFoXDTIxMDcyOTEyMDU1MFowKzELMAkGA1UEBhMCSUwxDjAMBgNVBAcMBVll
-aHVkMQwwCgYDVQQLDANBRE0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
-AQDY5Rax6QCeKNsB8tPVvpmKblU+0PeuFqzw5BjtrgsD8Pw3SnCaS4djEKBKHaxx
-mZdKEriCMh8bxUb1E2r9GNUqf2JMORjJJEuBT7H+jsCvgPPQ6q9M8ua9cpRjHWoK
-A/FkdSy3W70zExCsRyAq7RMTg0lGnF5kzCw1eCdfAPVmfm9nXCQ9VP1GcPv/eP+8
-PfH0CfSkPF8Ic2SW691GlGKhSHVt/DB6Xh3aUwMBfbciIZaP/B9jv75rGYt0dHMq
-lCELlg1A5HvrR8ofSVyFDXtzBckKMDi8w9zWCKvHLhgsL7+L05bxo8iCMhGwTN5G
-ekW5YSR94JKW+oSdSxC3DGMnAgMBAAGjUDBOMB0GA1UdDgQWBBRCoS2iCUarf7QJ
-G62pFpbBLEKTCjAfBgNVHSMEGDAWgBRCoS2iCUarf7QJG62pFpbBLEKTCjAMBgNV
-HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBw/wCTGoyypB+sUYefzf4oZLY3
-NsD3dkTB/SnHRhPwEK3Edddw7M72I7Qt/OV6I1WebLaeSB9S1SbhR/tVB1i2zTUx
-MQSM0m1qmwOhOYz09xoqJ6bANVdqQsRqElUkWOWfh/4cUNc55skJH1cxmwblnLcu
-QlnSRslGbllCItTElKZ0Z2V/Dy7ygLxnJ0yFp9Nu2j3HG+pOywaKFr/XDrzu9qA+
-pIYOupy88a4K+LA+rWeCutIf7PjDJZCQsneTtx5HgA6oaX1xwj42Wfiqo4C3PPBY
-HlwPajV0cS7UVDdnEJsFJEl2kcjQV9LOQpe/wo8TMJF0BFdgKu+zTVtG6b/C
------END CERTIFICATE-----
-				</pre></dd>
-			</dl></li>
-		<li>Open "Manage Jenkins" &gt; "Manage Plugins" &gt; "Advanced".</li>
-		<li>Click "Check now"</li>
-	</ol>
-
 	<h2>Alternate way</h2>
 	<p>You can have your Jenkins access to this update center without UpdateSites Manager plugin with followings:</p>
 	<ol>
 		<li>Stop your Jenkins.</li>
 		<li>Open ${JENKINS_HOME}/hudson.model.UpdateCenter.xml with a text editor.</li>
-		<li>Update its contens as following:<pre class="code">&lt;?xml version='1.0' encoding='UTF-8'?&gt;
+		<li>Update its contents as following:<pre class="code">&lt;?xml version='1.0' encoding='UTF-8'?&gt;
 &lt;sites&gt;
 	&lt;site&gt;
-        &lt;id&gt;adm-jenkins-plugin-center&lt;/id&gt;
+        &lt;id&gt;ADM-Jenkins-plugin-center&lt;/id&gt;
         &lt;url&gt;https://microfocus.github.io/adm-jenkins-update-center/update-center.json&lt;/url&gt;
       &lt;/site&gt;
       &lt;!-- Add Here --&gt;
@@ -165,7 +121,7 @@ HlwPajV0cS7UVDdnEJsFJEl2kcjQV9LOQpe/wo8TMJF0BFdgKu+zTVtG6b/C
       
 &lt;/sites&gt;
 </pre>
-		</li><li>Put <a title="Certificate file for ikedam Jenkins Update Center." href="https://microfocus.github.io/adm-jenkins-update-center/adm-jenkins-update-center.crt">adm-jenkins-update-center.crt</a> in ${JENKINS_HOME}/update-center-rootCAs/ (you have to create a directory).</li>
+		</li><li>Put <a title="Certificate file for ikedam Jenkins Update Center." href="https://microfocus.github.io/adm-jenkins-update-center/ADM-update-center.crt">ADM-update-center.crt</a> in ${JENKINS_HOME}/update-center-rootCAs/ (you have to create a directory).</li>
 		<li>Start your Jenkins.</li>
 		<li>Access to Jenkins, open "Manage Jenkins" &gt; "Manage Plugins" &gt; "Advanced".</li>
 		<li>Click "Check now"</li>
