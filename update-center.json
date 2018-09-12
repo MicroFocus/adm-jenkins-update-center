@@ -2,92 +2,17 @@ updateCenter.post(
 {
   "id": "ADM-Jenkins-plugin-center",
   "plugins": {"hp-application-automation-tools-plugin":   {
-    "buildDate": "Jul 08, 2018",
+    "buildDate": "Sep 12, 2018",
     "dependencies":     [
             {
-        "name": "branch-api",
+        "name": "extended-choice-parameter",
         "optional": true,
-        "version": "1.10"
-      },
-            {
-        "name": "maven-plugin",
-        "optional": false,
-        "version": "2.6"
-      },
-            {
-        "name": "parameterized-trigger",
-        "optional": true,
-        "version": "2.25"
-      },
-            {
-        "name": "workflow-step-api",
-        "optional": false,
-        "version": "2.2"
-      },
-            {
-        "name": "git-client",
-        "optional": false,
-        "version": "1.19.6"
-      },
-            {
-        "name": "subversion",
-        "optional": true,
-        "version": "2.5"
-      },
-            {
-        "name": "jenkins-multijob-plugin",
-        "optional": true,
-        "version": "1.15"
+        "version": "0.64"
       },
             {
         "name": "credentials",
         "optional": false,
-        "version": "2.1.4"
-      },
-            {
-        "name": "dynamicparameter",
-        "optional": true,
-        "version": "0.2.0"
-      },
-            {
-        "name": "pipeline-build-step",
-        "optional": false,
-        "version": "2.2"
-      },
-            {
-        "name": "git",
-        "optional": true,
-        "version": "2.4.4"
-      },
-            {
-        "name": "workflow-cps",
-        "optional": false,
-        "version": "2.6"
-      },
-            {
-        "name": "mailer",
-        "optional": false,
-        "version": "1.16"
-      },
-            {
-        "name": "pipeline-rest-api",
-        "optional": true,
-        "version": "1.7"
-      },
-            {
-        "name": "git-server",
-        "optional": true,
-        "version": "1.7"
-      },
-            {
-        "name": "structs",
-        "optional": false,
-        "version": "1.4"
-      },
-            {
-        "name": "extended-choice-parameter",
-        "optional": true,
-        "version": "0.34"
+        "version": "2.1.8"
       },
             {
         "name": "nodelabelparameter",
@@ -95,24 +20,44 @@ updateCenter.post(
         "version": "1.5.0"
       },
             {
+        "name": "token-macro",
+        "optional": true,
+        "version": "1.12.1"
+      },
+            {
         "name": "ssh-credentials",
         "optional": false,
         "version": "1.13"
       },
             {
-        "name": "token-macro",
+        "name": "git",
         "optional": true,
-        "version": "1.12"
+        "version": "3.1.0"
+      },
+            {
+        "name": "jenkins-multijob-plugin",
+        "optional": true,
+        "version": "1.15"
+      },
+            {
+        "name": "jquery",
+        "optional": true,
+        "version": "1.11.2-0"
+      },
+            {
+        "name": "parameterized-trigger",
+        "optional": true,
+        "version": "2.25"
       },
             {
         "name": "matrix-project",
-        "optional": false,
-        "version": "1.6"
+        "optional": true,
+        "version": "1.7.1"
       },
             {
-        "name": "workflow-aggregator",
-        "optional": false,
-        "version": "2.2"
+        "name": "maven-plugin",
+        "optional": true,
+        "version": "2.15.1"
       },
             {
         "name": "random-string-parameter",
@@ -120,90 +65,96 @@ updateCenter.post(
         "version": "1.0"
       },
             {
-        "name": "jquery",
+        "name": "subversion",
         "optional": true,
-        "version": "1.7.2-1"
+        "version": "2.7.1"
+      },
+            {
+        "name": "workflow-cps",
+        "optional": false,
+        "version": "2.42"
       },
             {
         "name": "junit",
         "optional": false,
         "version": "1.19"
+      },
+            {
+        "name": "workflow-aggregator",
+        "optional": false,
+        "version": "2.5"
       }
     ],
     "developers":     [
             {
-        "developerId": "grount",
+        "developerId": "gront",
+        "email": "daniel.gront@microfocus.com",
         "name": "Daniel Gront"
       },
             {
-        "developerId": "YafimK",
-        "name": "Fima (Yafim) Kazak"
-      },
-            {
         "developerId": "mseldin",
-        "email": "michael.seldin@hpe.com",
+        "email": "michael.seldin@microfocus.com",
         "name": "Michael Seldin"
       },
             {
         "developerId": "Rlu",
-        "email": "li.lu@hpe.com",
+        "email": "li.lu@microfocus.com",
         "name": "Roy Lu"
       },
             {
         "developerId": "pavelchuchma",
-        "email": "pavel.chuchma@hpe.com",
+        "email": "pavel.chuchma@microfocus.com",
         "name": "Pavel Chuchma"
       },
             {
-        "developerId": "imrman",
-        "email": "avishai.moshka@hp.com",
-        "name": "Avishai Moshka"
+        "developerId": "rolandomihaivlad",
+        "email": "rolando-mihai.vlad@microfocus.com",
+        "name": "Vlad, Rolando-Mihai"
       },
             {
-        "developerId": "amitb",
-        "email": "amit.bezalel@hpe.com",
-        "name": "Amit Bezalel"
+        "developerId": "tamasflorin",
+        "email": "ionut-florin.tamas@hpe.com",
+        "name": "Tamas, Ionut Florin"
       },
             {
         "developerId": "bamh",
-        "email": "hanan.bem@hpe.com",
-        "name": "Hanan Bem"
+        "email": "daniel.danan@microfocus.com",
+        "name": "Daniel Danan"
       },
             {
-        "developerId": "michaelhpe",
-        "email": "weimin.jing@hpe.com",
-        "name": "Weimin Jing"
-      },
-            {
-        "developerId": "JackyZhuHPE",
-        "email": "chun-jiang.zhu@hpe.com",
-        "name": "Chunjiang Zhu (Jacky)"
+        "developerId": "janezhang",
+        "email": "xiao-jing.zhang2@microfocus.com",
+        "name": "Zhang, Xiao-Jing"
       },
             {
         "developerId": "gullerya",
         "email": "gullerya@gmail.com",
         "name": "Yuri Guller"
+      },
+            {
+        "developerId": "YafimK",
+        "name": "Fima (Yafim) Kazak"
       }
     ],
-    "excerpt": "The plugin integrates Jenkins with the following MicroFocus products - Service Virtualization, LoadRunner, Performance Center, Unified Functional Testing, QuickTest Professional, Service Test, Mobile Center, Application Lifecycle Management and Application Lifecycle Management Octane.",
-    "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.4.2-beta",
+    "excerpt": "The plugin integrates Jenkins with the following Micro Focus products - Service Virtualization, LoadRunner, Performance Center, Unified Functional Testing, QuickTest Professional, Service Test, Mobile Center, Application Lifecycle Management and Application Lifecycle Management Octane.",
+    "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.5.1-beta",
     "labels": ["misc"],
     "name": "hp-application-automation-tools-plugin",
-    "previousTimestamp": "2018-06-19T14:16:36.00Z",
-    "previousVersion": "5.4.1-beta",
-    "releaseTimestamp": "2018-07-08T04:40:00.00Z",
-    "requiredCore": "1.642.4",
+    "previousTimestamp": "2018-08-30T05:18:00.00Z",
+    "previousVersion": "5.5",
+    "releaseTimestamp": "2018-09-12T11:57:44.00Z",
+    "requiredCore": "2.60.3",
     "scm": "github.com",
-    "sha1": "mVa0LUZfkN2K//XoI99qbqRRiwY=",
-    "title": "HPE Application Automation Tools",
-    "url": "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/hp-application-automation-tools-plugin/5.4.2-beta/hp-application-automation-tools-plugin-5.4.2-beta.hpi",
-    "version": "5.4.2-beta",
-    "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/HPE+Application+Automation+Tools"
+    "sha1": "6vVn5kVNfCYWe6oj36tTuI+OSVk=",
+    "title": "Micro Focus Application Automation Tools",
+    "url": "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/hp-application-automation-tools-plugin/5.5.1-beta/hp-application-automation-tools-plugin-5.5.1-beta.hpi",
+    "version": "5.5.1-beta",
+    "wiki": "https://wiki.jenkins.io/display/JENKINS/Micro+Focus+Application+Automation+Tools"
   }},
   "signature":   {
     "certificates": ["MIICUDCCAbmgAwIBAgIJAPgbNo1u66uWMA0GCSqGSIb3DQEBCwUAMEExCzAJBgNVBAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEUMBIGA1UECgwLTWljcm8gRm9jdXMxDDAKBgNVBAsMA0FETTAeFw0xODA4MDcwNTUwNDZaFw0yMTA4MDYwNTUwNDZaMEExCzAJBgNVBAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEUMBIGA1UECgwLTWljcm8gRm9jdXMxDDAKBgNVBAsMA0FETTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAueFNRdNiCPXsQ9Bm6L+1T9fLgSO81Bp6fjQNrOGdZzJomcCaBw3lRSNn0Uy3g2hhZVphQvoS2zMXmisK1Lfk+DV+Bg3vkTv5GKflxact+wAIBKfc8MH+AnsuMzZbclzGTCdmicWaqLcsK8lA0e+G4tfjHBT4G9e6Xu6q6Y4Q11sCAwEAAaNQME4wHQYDVR0OBBYEFDXlBqr3da++EkNgUUJdAk87hJcqMB8GA1UdIwQYMBaAFDXlBqr3da++EkNgUUJdAk87hJcqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADgYEAFplOOPEzH+Pi5B0ZbYXDYrFC7jtCIGuXJ//+7hJZALZEojJzSTOun4TL7lS5XKK/gZLDgif1M3UPkK4J7NsGTJPPunukPo7pPc/Wvgi7hKl39OPpRDo7i6c4Jj/g8SYujQUUQlkemse0HnNONK1JQ3MyXIFLVmhVubXa0idzsbM="],
-    "correct_digest": "sPrOZ3P726OkLi6kSwlrkXRsQ/U=",
-    "correct_signature": "dfqjbwbaTnI5zNKD6xjYt+KrwtbqiMA9TGBUWmTKI5OyBLAzub9SbO7m/IesMUVU0W4Npp0XUd0fYdSv4UYvOrRqvDR8I8tI9Q+2hwacsTso5Yggy8ZedoV0/vFPf+0XU1BTg1ENTwtr267lRhqeFipq1Wh8UBacJO954dC+i7M=",
+    "correct_digest": "ImwKWdFq+GX9jQaQG5sBllyVf58=",
+    "correct_signature": "XL8tp9cC4CtkKl7L2xZB0CoRJ2V/EUMpk9zbU6dUo3qw9JdGaPHERqNkLiuRxOqWHvWlCPh99sNdASC3ICUHTCJ3prfW+Iy/ubaIXfLFB8Z9Sw3S8NDyv1O4+o2EX/FJ22gn+iTQ2WXrrr5Ba8A/lbMFG3hza66ftHXUVxvEjyA=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "foZzX7kTsPaIbcPZh0NlwcZBbk6iz90REo2AbSQeYv/AITM04Qm5cBRyPvFbR57fd2xtYgxIkd2XxXa0olZID0lHENHxja3jdfwf9/tXvrwRpj+obF6fN90WAHxYfqnsM4ZYYMWy/vzV9QqLVTHrRqK0ELLdkjF8d6yfHOX61nU="
   },
