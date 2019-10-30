@@ -2,7 +2,7 @@ updateCenter.post(
 {
   "id": "ADM-Jenkins-plugin-center",
   "plugins": {"hp-application-automation-tools-plugin":   {
-    "buildDate": "Oct 08, 2019",
+    "buildDate": "Oct 30, 2019",
     "dependencies":     [
             {
         "name": "maven-plugin",
@@ -159,27 +159,31 @@ updateCenter.post(
             {
         "developerId": "YafimK",
         "name": "Fima (Yafim) Kazak"
+      },
+            {
+        "developerId": "paul-murray-mf",
+        "name": "Paul Murray"
       }
     ],
     "excerpt": "The plugin integrates Jenkins with the following Micro Focus products - Service Virtualization, LoadRunner, Performance Center, Unified Functional Testing, QuickTest Professional, Service Test, Unified Functional Testing Mobile, Application Lifecycle Management and Application Lifecycle Management Octane.",
-    "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.9.1-beta",
+    "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.9.2-beta",
     "labels": ["misc"],
     "name": "hp-application-automation-tools-plugin",
-    "previousTimestamp": "2019-09-26T12:20:18.00Z",
-    "previousVersion": "5.8.8-beta",
-    "releaseTimestamp": "2019-10-08T08:41:26.00Z",
-    "requiredCore": "2.121.3",
+    "previousTimestamp": "2019-10-08T08:41:26.00Z",
+    "previousVersion": "5.9.1-beta",
+    "releaseTimestamp": "2019-10-30T11:21:46.00Z",
+    "requiredCore": "2.138.4",
     "scm": "github.com",
-    "sha1": "RBIVux27HuNvgkmPlfENcs18UJM=",
+    "sha1": "bZm4pFIxVjtGK7XnkfCT4r7l/tc=",
     "title": "Micro Focus Application Automation Tools",
-    "url": "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/hp-application-automation-tools-plugin/5.5.2-beta/hp-application-automation-tools-plugin-5.9.1-beta.hpi",
-    "version": "5.9.1-beta",
+    "url": "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/hp-application-automation-tools-plugin/5.5.2-beta/hp-application-automation-tools-plugin-5.9.2-beta.hpi",
+    "version": "5.9.2-beta",
     "wiki": "https://wiki.jenkins.io/display/JENKINS/Micro+Focus+Application+Automation+Tools"
   }},
   "signature":   {
     "certificates": ["MIICUDCCAbmgAwIBAgIJAPgbNo1u66uWMA0GCSqGSIb3DQEBCwUAMEExCzAJBgNVBAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEUMBIGA1UECgwLTWljcm8gRm9jdXMxDDAKBgNVBAsMA0FETTAeFw0xODA4MDcwNTUwNDZaFw0yMTA4MDYwNTUwNDZaMEExCzAJBgNVBAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEUMBIGA1UECgwLTWljcm8gRm9jdXMxDDAKBgNVBAsMA0FETTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAueFNRdNiCPXsQ9Bm6L+1T9fLgSO81Bp6fjQNrOGdZzJomcCaBw3lRSNn0Uy3g2hhZVphQvoS2zMXmisK1Lfk+DV+Bg3vkTv5GKflxact+wAIBKfc8MH+AnsuMzZbclzGTCdmicWaqLcsK8lA0e+G4tfjHBT4G9e6Xu6q6Y4Q11sCAwEAAaNQME4wHQYDVR0OBBYEFDXlBqr3da++EkNgUUJdAk87hJcqMB8GA1UdIwQYMBaAFDXlBqr3da++EkNgUUJdAk87hJcqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADgYEAFplOOPEzH+Pi5B0ZbYXDYrFC7jtCIGuXJ//+7hJZALZEojJzSTOun4TL7lS5XKK/gZLDgif1M3UPkK4J7NsGTJPPunukPo7pPc/Wvgi7hKl39OPpRDo7i6c4Jj/g8SYujQUUQlkemse0HnNONK1JQ3MyXIFLVmhVubXa0idzsbM="],
-    "correct_digest": "5NX6HEyX3HR3mcQBb41VWGw5nRY=",
-    "correct_signature": "ZkSXrvkgQea/vfPSGfKpgxv0jQ6soo5aOsjbk/mfvc4XNUNVZ4ZEXRDuBLGQYIHXfKYhZ70jDAuvg/zEwzj7wpDip1vLjeTby41hNqwT7G92+546pqcs7+Nv90w91X4T1MQJ7vuVyryetELbz+n25PblaXKxCcfj/eWKlCqYJx4=",
+    "correct_digest": "39FVatxWamthlGDQQHbbsKaGLaE=",
+    "correct_signature": "jhxDdmmRT+crLJ0VK/NBfNo7pkHaTAVNNHjEzMqyjFidzejwtaY1CLhXMj8blpFWDis+GHC3+10Ymbay5ap/Ro0hXIWBM2ZnwS31dhQT7lCmvQ0Ar0aPS2RfxaqvXQmLqvjoX+g6/ahfQaePx0v0W0ehvuKVoYJOJkCpZI89KLU=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "foZzX7kTsPaIbcPZh0NlwcZBbk6iz90REo2AbSQeYv/AITM04Qm5cBRyPvFbR57fd2xtYgxIkd2XxXa0olZID0lHENHxja3jdfwf9/tXvrwRpj+obF6fN90WAHxYfqnsM4ZYYMWy/vzV9QqLVTHrRqK0ELLdkjF8d6yfHOX61nU="
   },
