@@ -23,22 +23,29 @@
     "releases": [    {
       "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.9.1-beta",
       "timestamp": 1570524086000,
-      "title": "Micro Focus Application Automation Tools",
       "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
-      "version": "5.9.1-beta",
-      "wiki": "https://wiki.jenkins.io/display/JENKINS/Micro+Focus+Application+Automation+Tools"
+      "version": "5.9.1-beta"
     }]
   },
     {
     "date": "Oct 30, 2019",
     "releases": [    {
       "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:5.9.2-beta",
-      "latestRelease": true,
       "timestamp": 1572434506000,
+      "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
+      "version": "5.9.2-beta"
+    }]
+  },
+    {
+    "date": "Dec 10, 2019",
+    "releases": [    {
+      "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:6.0.2-beta",
+      "latestRelease": true,
+      "timestamp": 1575970336000,
       "title": "Micro Focus Application Automation Tools",
       "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
-      "version": "5.9.2-beta",
-      "wiki": "https://wiki.jenkins.io/display/JENKINS/Micro+Focus+Application+Automation+Tools"
+      "version": "6.0.2-beta",
+      "wiki": "https://github.com/jenkinsci/hpe-application-automation-tools-plugin/blob/latest/doc/README.md"
     }]
   }
 ]}
