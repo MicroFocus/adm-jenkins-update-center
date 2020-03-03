@@ -2,7 +2,7 @@
 {
   "id": "ADM-Jenkins-plugin-center",
   "plugins": {"hp-application-automation-tools-plugin":   {
-    "buildDate": "Mar 02, 2020",
+    "buildDate": "Mar 03, 2020",
     "dependencies":     [
             {
         "name": "maven-plugin",
@@ -12,22 +12,42 @@
             {
         "name": "workflow-aggregator",
         "optional": false,
-        "version": "2.6"
+        "version": "2.5"
+      },
+            {
+        "name": "workflow-cps",
+        "optional": false,
+        "version": "2.53"
+      },
+            {
+        "name": "workflow-job",
+        "optional": false,
+        "version": "2.21"
+      },
+            {
+        "name": "workflow-multibranch",
+        "optional": false,
+        "version": "2.20"
+      },
+            {
+        "name": "workflow-support",
+        "optional": false,
+        "version": "2.18"
       },
             {
         "name": "credentials",
         "optional": false,
-        "version": "2.1.18"
+        "version": "2.1.11"
       },
             {
         "name": "extended-choice-parameter",
         "optional": true,
-        "version": "0.76"
+        "version": "0.64"
       },
             {
         "name": "git",
         "optional": true,
-        "version": "3.3.2"
+        "version": "3.1.0"
       },
             {
         "name": "jenkins-multijob-plugin",
@@ -42,17 +62,12 @@
             {
         "name": "junit",
         "optional": false,
-        "version": "1.20"
-      },
-            {
-        "name": "mailer",
-        "optional": true,
-        "version": "1.20"
+        "version": "1.19"
       },
             {
         "name": "matrix-project",
         "optional": true,
-        "version": "1.12"
+        "version": "1.7.1"
       },
             {
         "name": "nodelabelparameter",
@@ -62,7 +77,7 @@
             {
         "name": "parameterized-trigger",
         "optional": true,
-        "version": "2.33"
+        "version": "2.25"
       },
             {
         "name": "random-string-parameter",
@@ -70,14 +85,14 @@
         "version": "1.0"
       },
             {
-        "name": "script-security",
-        "optional": false,
-        "version": "1.46"
-      },
-            {
         "name": "sonar",
         "optional": true,
         "version": "2.6.1"
+      },
+            {
+        "name": "ssh-credentials",
+        "optional": false,
+        "version": "1.13"
       },
             {
         "name": "subversion",
@@ -151,24 +166,24 @@
       }
     ],
     "excerpt": "The plugin integrates Jenkins with the following Micro Focus products - Service Virtualization, LoadRunner, LoadRunner Enterprise, Unified Functional Testing, QuickTest Professional, Service Test, Unified Functional Testing Mobile, Application Lifecycle Management and Application Lifecycle Management Octane.",
-    "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:6.1.2-beta",
+    "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:6.1.3-beta",
     "labels": ["misc"],
     "name": "hp-application-automation-tools-plugin",
-    "previousTimestamp": "2020-02-18T09:09:26.00Z",
-    "previousVersion": "6.1.1-beta",
-    "releaseTimestamp": "2020-03-02T05:33:38.00Z",
+    "previousTimestamp": "2020-03-02T05:33:38.00Z",
+    "previousVersion": "6.1.2-beta",
+    "releaseTimestamp": "2020-03-03T08:02:06.00Z",
     "requiredCore": "2.150.3",
     "scm": "github.com",
-    "sha1": "fNBxkMhbAuIVaB44wxUZUDALp/k=",
+    "sha1": "lnplk5/2BKwpWGK29Y3PQ+D8E8Y=",
     "title": "Micro Focus Application Automation Tools",
-    "url": "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/hp-application-automation-tools-plugin/6.1.2-beta/hp-application-automation-tools-plugin-6.1.2-beta.hpi",
-    "version": "6.1.2-beta",
+    "url": "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/hp-application-automation-tools-plugin/6.1.3-beta/hp-application-automation-tools-plugin-6.1.3-beta.hpi",
+    "version": "6.1.3-beta",
     "wiki": "https://github.com/jenkinsci/hpe-application-automation-tools-plugin/blob/latest/doc/README.md"
   }},
   "signature":   {
     "certificates": ["MIICUDCCAbmgAwIBAgIJAPgbNo1u66uWMA0GCSqGSIb3DQEBCwUAMEExCzAJBgNVBAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEUMBIGA1UECgwLTWljcm8gRm9jdXMxDDAKBgNVBAsMA0FETTAeFw0xODA4MDcwNTUwNDZaFw0yMTA4MDYwNTUwNDZaMEExCzAJBgNVBAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEUMBIGA1UECgwLTWljcm8gRm9jdXMxDDAKBgNVBAsMA0FETTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAueFNRdNiCPXsQ9Bm6L+1T9fLgSO81Bp6fjQNrOGdZzJomcCaBw3lRSNn0Uy3g2hhZVphQvoS2zMXmisK1Lfk+DV+Bg3vkTv5GKflxact+wAIBKfc8MH+AnsuMzZbclzGTCdmicWaqLcsK8lA0e+G4tfjHBT4G9e6Xu6q6Y4Q11sCAwEAAaNQME4wHQYDVR0OBBYEFDXlBqr3da++EkNgUUJdAk87hJcqMB8GA1UdIwQYMBaAFDXlBqr3da++EkNgUUJdAk87hJcqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADgYEAFplOOPEzH+Pi5B0ZbYXDYrFC7jtCIGuXJ//+7hJZALZEojJzSTOun4TL7lS5XKK/gZLDgif1M3UPkK4J7NsGTJPPunukPo7pPc/Wvgi7hKl39OPpRDo7i6c4Jj/g8SYujQUUQlkemse0HnNONK1JQ3MyXIFLVmhVubXa0idzsbM="],
-    "correct_digest": "h4sS0q6Lt8poDa+9y8hBz+JRDa0=",
-    "correct_signature": "Pa61wjVy+cMzr4x3rEOGABUT9rKNG7+/+sULOPHitd/60Gobn4VMUk+8JLUsEPv1RGFUb2sKeSsRb0RWzyeCKr26tHHIReVg6s/d27H5D6Zj98HZLGD2tpuGyiP1bPehwAjsPdA/yAUqnRB7oC7JDZaSM/e9ovEey5rusCujEI4=",
+    "correct_digest": "nJHiNxB6OlNYcQYO+CuTt7hfCWY=",
+    "correct_signature": "ofisynvzAz5zwu1zoz8ow1JYNvQVC1VWW4NGyvj5YGD2y+IN35Y8hG4cv9DByt8tAIEK4TCRK3EN1417Q+A2rxCd2tEAdqL4tcv8RYNR0Brj7XmYcrj1WeN8X0OiodkqQxCnzGTecZUJQpVZENz7gIzj/wBSEP/6rw2NYjj5YpM=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "foZzX7kTsPaIbcPZh0NlwcZBbk6iz90REo2AbSQeYv/AITM04Qm5cBRyPvFbR57fd2xtYgxIkd2XxXa0olZID0lHENHxja3jdfwf9/tXvrwRpj+obF6fN90WAHxYfqnsM4ZYYMWy/vzV9QqLVTHrRqK0ELLdkjF8d6yfHOX61nU="
   },
