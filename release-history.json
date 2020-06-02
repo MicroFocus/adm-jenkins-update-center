@@ -386,7 +386,6 @@
     "date": "Jun 02, 2020",
     "releases": [    {
       "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:6.2.4-beta",
-      "latestRelease": true,
       "timestamp": 1591097880000,
       "title": "Micro Focus Application Automation Tools",
       "url": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
