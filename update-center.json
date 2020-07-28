@@ -2,7 +2,7 @@ updateCenter.post(
 {
   "id": "ADM-Jenkins-plugin-center",
   "plugins": {"hp-application-automation-tools-plugin":   {
-    "buildDate": "Jul 06, 2020",
+    "buildDate": "Jul 28, 2020",
     "dependencies":     [
             {
         "name": "maven-plugin",
@@ -201,24 +201,24 @@ updateCenter.post(
       }
     ],
     "excerpt": "The plugin integrates Jenkins with the following Micro Focus products - Service Virtualization, LoadRunner, LoadRunner Enterprise, Unified Functional Testing, QuickTest Professional, Service Test, Unified Functional Testing Mobile, Application Lifecycle Management and Application Lifecycle Management Octane.",
-    "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:6.3.1-beta",
+    "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:6.3.2-beta",
     "labels": ["misc"],
     "name": "hp-application-automation-tools-plugin",
-    "previousTimestamp": "2020-06-23T06:48:48.00Z",
-    "previousVersion": "6.2.8-beta",
-    "releaseTimestamp": "2020-07-06T14:28:54.00Z",
-    "requiredCore": "2.176.4",
+    "previousTimestamp": "2020-07-06T14:28:54.00Z",
+    "previousVersion": "6.3.1-beta",
+    "releaseTimestamp": "2020-07-28T15:42:40.00Z",
+    "requiredCore": "2.176.1",
     "scm": "github.com",
-    "sha1": "W89N4PItFOfc80cIu4hpAhCsK80=",
+    "sha1": "KacnP0bR8soNXkgs5dLUFekzjSI=",
     "title": "Micro Focus Application Automation Tools",
-    "url": "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/hp-application-automation-tools-plugin/6.3.1-beta/hp-application-automation-tools-plugin-6.3.1-beta.hpi",
-    "version": "6.3.1-beta",
+    "url": "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/hp-application-automation-tools-plugin/6.3.2-beta/hp-application-automation-tools-plugin-6.3.2-beta.hpi",
+    "version": "6.3.2-beta",
     "wiki": "https://github.com/jenkinsci/hpe-application-automation-tools-plugin/blob/latest/doc/README.md"
   }},
   "signature":   {
     "certificates": ["MIICUDCCAbmgAwIBAgIJAPgbNo1u66uWMA0GCSqGSIb3DQEBCwUAMEExCzAJBgNVBAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEUMBIGA1UECgwLTWljcm8gRm9jdXMxDDAKBgNVBAsMA0FETTAeFw0xODA4MDcwNTUwNDZaFw0yMTA4MDYwNTUwNDZaMEExCzAJBgNVBAYTAklMMQ4wDAYDVQQHDAVZZWh1ZDEUMBIGA1UECgwLTWljcm8gRm9jdXMxDDAKBgNVBAsMA0FETTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAueFNRdNiCPXsQ9Bm6L+1T9fLgSO81Bp6fjQNrOGdZzJomcCaBw3lRSNn0Uy3g2hhZVphQvoS2zMXmisK1Lfk+DV+Bg3vkTv5GKflxact+wAIBKfc8MH+AnsuMzZbclzGTCdmicWaqLcsK8lA0e+G4tfjHBT4G9e6Xu6q6Y4Q11sCAwEAAaNQME4wHQYDVR0OBBYEFDXlBqr3da++EkNgUUJdAk87hJcqMB8GA1UdIwQYMBaAFDXlBqr3da++EkNgUUJdAk87hJcqMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADgYEAFplOOPEzH+Pi5B0ZbYXDYrFC7jtCIGuXJ//+7hJZALZEojJzSTOun4TL7lS5XKK/gZLDgif1M3UPkK4J7NsGTJPPunukPo7pPc/Wvgi7hKl39OPpRDo7i6c4Jj/g8SYujQUUQlkemse0HnNONK1JQ3MyXIFLVmhVubXa0idzsbM="],
-    "correct_digest": "U+cCZXiAlSw8xfK9G+Y+PJaeUtk=",
-    "correct_signature": "TdLZ8r70tAU+q/TgwQVw650dqXf0Jzs/UJU7t10HTPvPgsyX1ZLrVq1meU24iEj6A0KW3Zqfk9aKLxXi3DZAjGsBXM6Xzm7PBHwU/9GXjbpH1J/fIXBb1xK7Z4vLAEky8lckHwvNnGxiMteUqJ2pzz9Gza9g2arpi2cVfRUz+TY=",
+    "correct_digest": "fhPzQMCcm7khTbXsNXmGCFB+XW4=",
+    "correct_signature": "LsoAwM2Cef4vZtS5mvgSg8lRZ0vCvg5v1ucIm3tToLaEKFRlNbHTRcfh5HvfAm+G16DwRAzter7Ef5cBZeWMYFAaBduc/7KcsGwW3dDrfogRjw/VG5wUpU1GfwN6TThSiDLEhqjq9h4Ge+w5Uvy59EPsf69NQZ6L3hz1nKR+qeQ=",
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "foZzX7kTsPaIbcPZh0NlwcZBbk6iz90REo2AbSQeYv/AITM04Qm5cBRyPvFbR57fd2xtYgxIkd2XxXa0olZID0lHENHxja3jdfwf9/tXvrwRpj+obF6fN90WAHxYfqnsM4ZYYMWy/vzV9QqLVTHrRqK0ELLdkjF8d6yfHOX61nU="
   },
